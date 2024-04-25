@@ -15,7 +15,7 @@ const Header = () => {
       <div className="w-full flex flex-col gap-4 lg:flex-row lg:justify-between items-center lg:gap-0 mt-10">
         <div className="flex gap-[17px] items-center md:self-start">
           <span className="font-semibold text-black -mt-3 text-3xl lg:text-[46px]">
-            Mobile App
+            Kanban Board Clone
           </span>
           <img src={EditIcon} alt="Edit" />
           <img src={LinkIcon} alt="Link" />

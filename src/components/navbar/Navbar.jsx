@@ -2,8 +2,6 @@ import CalendarIcon from "../../assets/icons/calendar.svg";
 import SearchIcon from "../../assets/icons/search.svg";
 import NotificationIcon from "../../assets/icons/notification.svg";
 import QuestionIcon from "../../assets/icons/question.svg";
-import ProfileIcon from "../../assets/icons/profile.svg";
-import DownArrowIcon from "../../assets/icons/downArrow.svg";
 
 const Navbar = () => {
   return (
@@ -31,16 +29,10 @@ const Navbar = () => {
           <div className="flex items-center gap-3 mr-8">
             <div className="hidden my-0 mx-[10px] lg:flex flex-col gap-[3px] items-end">
               <span className="text-base font-normal text-black">
-                Anima Agrawal
+                Chandan S
               </span>
-              <span className="text-sm font-normal text-grey">U.P, India</span>
+              <span className="text-sm font-normal text-grey">22BCE3122</span>
             </div>
-            <img
-              src={ProfileIcon}
-              alt="Anima Agrawal"
-              className="rounded-full"
-            />
-            <img src={DownArrowIcon} alt="" />
           </div>
         </div>
       </div>

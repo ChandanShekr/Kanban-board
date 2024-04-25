@@ -16,7 +16,7 @@ const Sidebar = () => {
       <header className="h-20 flex justify-between items-center px-[13px] sm:px-[22px]">
         <span className="flex text-xl sm:text-lg font-semibold text-black gap-[9px]">
           <img src={Logo} alt="Project M." />
-          <span className="opacity-0 md:opacity-100">Project M.</span>
+          <span className="opacity-0 md:opacity-100">MFC Task</span>
         </span>
         <img src={Arrow} alt="arrow" className="mr-3 hidden sm:block" />
       </header>
